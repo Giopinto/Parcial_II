@@ -1,0 +1,130 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+
+}
+
+body {
+  background: url(../img/fond.jpg)no-repeat;
+ 
+  
+	
+}
+
+.todo{
+	background-color: white;
+	width: 98%;
+	height: 100%;
+}
+
+header{
+    
+	background-size: 100% 100%;
+	background:#2969B0; 
+	height: 90px;
+	padding: 2px;
+	color: #fff;
+	text-align: left;
+	 box-shadow: 3px 3px 5px rgba(0,0,0,0.6);
+	-webkit-transition:all .6s;
+ 	-moz-:all .6s;
+ 	-o-:all 0.6s;
+
+}
+
+header img{
+	width: 95px;
+	height: 80px;
+	position: absolute;
+	
+	margin-left: 13%;
+}
+
+h3{
+	
+	margin-right:30px;
+	
+	margin-left:30%;
+}
+section #cuerpo{
+	width: 95%;
+	height: 98%;
+}
+
+
+input{
+	
+	border-radius: 5px;
+	border: 0;
+	margin: 6px;
+	transition: all 1s;
+	opacity: .7;
+}
+input[type=text], input[type=password], input[type=date]{
+	height: 28px;
+	width: 280px;
+	background-color: ;
+	/*color de texto*/
+	
+	
+	font-size: 17px;
+	
+	font-weight: lighter;
+	/*color de borde*/
+	border:1px solid rgba(32,124,229,1);  
+	box-shadow: 1px 3px 3px -1px #FFF inset;
+	padding-left: 30px;
+}
+
+ input[type=date]{
+	height: 28px;
+	width: 180px;
+	background-color: ;
+	/*color de texto*/
+	
+	
+	font-size: 17px;
+	
+	font-weight: lighter;
+	/*color de borde*/
+	border:1px solid rgba(32,124,229,1);  
+	box-shadow: 1px 3px 3px -1px #FFF inset;
+	padding-left: 30px;
+}
+
+input[type=submit]{
+	height: 35px;
+	width: 200px;
+	/* Linea superior */
+	-moz-box-shadow:inset 0px 2px 0px 0px #2F8EB7;
+	-webkit-box-shadow:inset 0px 2px 0px 0px #2F8EB7;
+	box-shadow:inset 0px 2px 0px 0px #2F8EB7;
+	/*color de fondo degradado*/
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #2266BF), color-stop(1, #2266BF) );
+	background:-moz-linear-gradient( center top, #2266BF 5%, #52B3DC 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2266BF', endColorstr='#52B3DC');
+	/*color de fondo si falla */
+	background-color:#2266BF;
+	/*color de borde*/
+	border:1px solid #426598;
+	/*color de texto*/
+	color:#ffffff;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	text-shadow:1px 1px 0px #426598;
+
+}
+
+input[type=submit]:hover{
+	/*color de fondo degradado*/
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #52B3DC), color-stop(1, #2266BF) );
+	background:-moz-linear-gradient( center top, #52B3DC 5%, #2266BF 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#89c403', endColorstr='#52B3DC');
+cursor:pointer;
+}
+
+footer{
+	font-family: "nuevo";
+	 font-size: xx-small;
+    font-size: 5px;
+}
